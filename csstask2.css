@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header  */
+#top-content {
+  background-color: #35424a;
+  text-align: center;
+  height: 9rem;
+}
+#main-head {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li a {
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* section 1 */
+#Section1 {
+  /* border: 3px solid red; */
+}
+.sec-head1 {
+  padding: 4rem 0rem 1.5rem 1rem;
+}
+.bold {
+  font-weight: bold;
+}
+.sec-para1 {
+  padding: 1.5rem;
+  background-color: #e4e4e4;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  border: 1px solid #9d9898;
+}
+
+/*Section 2*/
+#Section2 {
+  /* border: 3px solid red; */
+}
+.sec-head2 {
+  padding: 1.5rem 0rem 1.5rem 1rem;
+}
+
+.box1 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  height: 6rem;
+  width: 6.5rem;
+  background-color: #35424a;
+  color: white;
+  left: 15rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.box2 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  height: 6rem;
+  width: 6.5rem;
+  background-color: #d9544f;
+  color: white;
+  top: -18.58rem;
+  left: 29.5rem;
+  border: 1px solid white;
+}
+.box3 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  height: 6rem;
+  width: 6.5rem;
+  background-color: #35424a;
+  color: white;
+  left: 43rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+/*Section 3*/
+
+#Section3 {
+  /* border: 3px solid red; */
+}
+.sec-head3 {
+  padding: 1.5rem 0rem 1.5rem 1rem;
+}
+
+.sec-para3 {
+  color: #cc433e;
+  text-shadow: 1px 1px 3px #5a5555;
+  padding: 1.25rem;
+  background-color: #e4e4e4;
+  margin: 1rem;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #9d9898;
+}
+#link {
+  display: inline-block;
+  margin: 1rem 0rem 5rem 1rem;
+}
+.weblink {
+  color: rgb(38, 129, 239);
+}
+
+/* footer */
+footer {
+  background-color: #35424a;
+  color: white;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
